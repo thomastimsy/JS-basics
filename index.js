@@ -42,6 +42,7 @@ let message = (age < 3) ? 'Hi, baby!' :
   (age < 100) ? 'Greetings!' :
   'What an unusual age!';
   console.log(message);
+  let name = 'fola'
 using else if..same as
   if (age < 3) {
   message = 'Hi, baby!';
@@ -55,13 +56,13 @@ using else if..same as
 
 /*let answer;
 let officialName = prompt("what is the official name of Javascript", "");  
-if (officialName == ECMASCRIPT); {
+if (officialName == "ECMASCRIPT") {
     answer = "RIGHT!"; 
     }
 else {
       answer = "You don’t know? ECMAScript!";
-    }*/ 
-    //didnt work on console
+    }
+    
 
     
     let value = prompt('What is the "official" name of JavaScript?', '');
@@ -70,7 +71,7 @@ else {
       alert('Right!');
     } else {
       alert("You don't know? ECMAScript!");
-    } //this worked
+    } */
 
     
 
