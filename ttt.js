@@ -66,3 +66,9 @@ function showCancel() {
 
 // usage: functions showOk, showCancel are passed as arguments to ask
 ask("Do you agree?", showOk, showCancel);
+
+var rainbow = ['Red', 'Orange', 'Blackberry', 'Blue'];
+
+rainbow.splice(2, 1, "Yellow", "Green"); // I added 2 colours rmv 1
+rainbow.splice(5, 0, "Purple"); //add purple rmv none
+console.log(rainbow);
